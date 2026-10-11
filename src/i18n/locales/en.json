@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "BookOCR",
+    "brand": "by l'Atelier",
+    "tagline": "Faithful book PDF → Markdown, Typst PDF, EPUB3"
+  },
+  "steps": {
+    "select": "1. Select PDF",
+    "deps": "2. Dependencies",
+    "run": "3. Pipeline",
+    "export": "4. Export"
+  },
+  "select": {
+    "pdf": "Book PDF",
+    "pdfHint": "Scanned or text PDF — one book at a time",
+    "output": "Output folder",
+    "choosePdf": "Choose PDF…",
+    "chooseOutput": "Choose folder…",
+    "comingSoon": "File dialogs arrive with the next pipeline step. Paths can be typed for now."
+  },
+  "deps": {
+    "title": "External tools",
+    "refresh": "Refresh",
+    "found": "Found",
+    "missing": "Missing",
+    "hint": "Install missing tools and ensure they are on PATH. Pull Ollama models when ready: richardyoung/unlimited-ocr and clef-flash."
+  },
+  "lang": {
+    "label": "Language"
+  }
+}

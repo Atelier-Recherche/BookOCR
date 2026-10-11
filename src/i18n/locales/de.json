@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "BookOCR",
+    "brand": "by l'Atelier",
+    "tagline": "Treues Buch-PDF → Markdown, Typst-PDF, EPUB3"
+  },
+  "steps": {
+    "select": "1. PDF wählen",
+    "deps": "2. Abhängigkeiten",
+    "run": "3. Pipeline",
+    "export": "4. Export"
+  },
+  "select": {
+    "pdf": "Buch-PDF",
+    "pdfHint": "Gescannt oder Text — ein Buch gleichzeitig",
+    "output": "Ausgabeordner",
+    "choosePdf": "PDF wählen…",
+    "chooseOutput": "Ordner wählen…",
+    "comingSoon": "Dateidialoge folgen mit dem Pipeline-Schritt. Pfade können vorerst eingegeben werden."
+  },
+  "deps": {
+    "title": "Externe Werkzeuge",
+    "refresh": "Aktualisieren",
+    "found": "Gefunden",
+    "missing": "Fehlt",
+    "hint": "Fehlende Tools installieren und im PATH bereitstellen. Ollama-Modelle bei Bedarf: richardyoung/unlimited-ocr und clef-flash."
+  },
+  "lang": {
+    "label": "Sprache"
+  }
+}

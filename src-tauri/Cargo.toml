@@ -1,0 +1,25 @@
+[package]
+name = "bookocr"
+version = "0.1.0"
+description = "BookOCR by l'Atelier — faithful book PDF to Markdown / Typst / EPUB3"
+authors = ["l'Atelier"]
+edition = "2024"
+license = "MIT"
+
+[lib]
+# The `_lib` suffix may seem redundant but it is necessary
+# to make the lib name unique and wouldn't conflict with the bin name.
+# This seems to be only an issue on Windows, see https://github.com/rust-lang/cargo/issues/8519
+name = "bookocr_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+bookmd = { path = "../crates/bookmd" }
+tauri = { version = "2", features = [] }
+tauri-plugin-opener = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+which = "7"

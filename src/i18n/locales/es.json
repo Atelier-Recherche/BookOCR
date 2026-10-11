@@ -1,0 +1,31 @@
+{
+  "app": {
+    "title": "BookOCR",
+    "brand": "by l'Atelier",
+    "tagline": "PDF de libro fiel → Markdown, PDF Typst, EPUB3"
+  },
+  "steps": {
+    "select": "1. Elegir PDF",
+    "deps": "2. Dependencias",
+    "run": "3. Pipeline",
+    "export": "4. Exportar"
+  },
+  "select": {
+    "pdf": "PDF del libro",
+    "pdfHint": "Escaneado o texto — un libro a la vez",
+    "output": "Carpeta de salida",
+    "choosePdf": "Elegir PDF…",
+    "chooseOutput": "Elegir carpeta…",
+    "comingSoon": "Los diálogos de archivos llegarán con la pipeline. Por ahora puedes escribir las rutas."
+  },
+  "deps": {
+    "title": "Herramientas externas",
+    "refresh": "Actualizar",
+    "found": "Encontrado",
+    "missing": "Falta",
+    "hint": "Instala las herramientas faltantes y añádelas al PATH. Modelos Ollama: richardyoung/unlimited-ocr y clef-flash."
+  },
+  "lang": {
+    "label": "Idioma"
+  }
+}
