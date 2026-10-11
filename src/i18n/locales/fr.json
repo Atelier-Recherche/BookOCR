@@ -12,11 +12,15 @@
   },
   "select": {
     "pdf": "PDF du livre",
-    "pdfHint": "PDF scanné ou texte — un livre à la fois",
+    "pdfHint": "PDF scanné ou texte — un livre à la fois. Cliquez ou glissez-déposez.",
     "output": "Dossier de sortie",
     "choosePdf": "Choisir un PDF…",
     "chooseOutput": "Choisir un dossier…",
-    "comingSoon": "Les dialogues de fichiers arriveront avec l’étape pipeline. Vous pouvez saisir les chemins pour l’instant."
+    "dropPdf": "Déposez un PDF ici, ou cliquez pour parcourir",
+    "dropOutput": "Déposez un dossier ici, ou cliquez pour parcourir",
+    "dropPdfOnly": "Déposez un fichier PDF dans cette zone.",
+    "dropFolderOnly": "Déposez un dossier (pas un PDF) dans cette zone.",
+    "clear": "Effacer"
   },
   "deps": {
     "title": "Outils externes",

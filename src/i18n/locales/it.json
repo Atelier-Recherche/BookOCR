@@ -12,11 +12,15 @@
   },
   "select": {
     "pdf": "PDF del libro",
-    "pdfHint": "Scansionato o testo — un libro alla volta",
+    "pdfHint": "Scansionato o testo — un libro alla volta. Clic o trascina.",
     "output": "Cartella di output",
     "choosePdf": "Scegli PDF…",
     "chooseOutput": "Scegli cartella…",
-    "comingSoon": "I dialoghi file arriveranno con la pipeline. Per ora puoi digitare i percorsi."
+    "dropPdf": "Trascina un PDF qui, o clicca per sfogliare",
+    "dropOutput": "Trascina una cartella qui, o clicca per sfogliare",
+    "dropPdfOnly": "Trascina un file PDF in questa zona.",
+    "dropFolderOnly": "Trascina una cartella (non un PDF) in questa zona.",
+    "clear": "Cancella"
   },
   "deps": {
     "title": "Strumenti esterni",

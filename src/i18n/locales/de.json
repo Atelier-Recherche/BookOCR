@@ -12,11 +12,15 @@
   },
   "select": {
     "pdf": "Buch-PDF",
-    "pdfHint": "Gescannt oder Text — ein Buch gleichzeitig",
+    "pdfHint": "Gescannt oder Text — ein Buch gleichzeitig. Klicken oder per Drag & Drop.",
     "output": "Ausgabeordner",
     "choosePdf": "PDF wählen…",
     "chooseOutput": "Ordner wählen…",
-    "comingSoon": "Dateidialoge folgen mit dem Pipeline-Schritt. Pfade können vorerst eingegeben werden."
+    "dropPdf": "PDF hier ablegen oder klicken zum Durchsuchen",
+    "dropOutput": "Ordner hier ablegen oder klicken zum Durchsuchen",
+    "dropPdfOnly": "Bitte eine PDF-Datei in diese Zone legen.",
+    "dropFolderOnly": "Bitte einen Ordner (keine PDF) in diese Zone legen.",
+    "clear": "Löschen"
   },
   "deps": {
     "title": "Externe Werkzeuge",

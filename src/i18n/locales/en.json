@@ -12,11 +12,15 @@
   },
   "select": {
     "pdf": "Book PDF",
-    "pdfHint": "Scanned or text PDF — one book at a time",
+    "pdfHint": "Scanned or text PDF — one book at a time. Click or drag and drop.",
     "output": "Output folder",
     "choosePdf": "Choose PDF…",
     "chooseOutput": "Choose folder…",
-    "comingSoon": "File dialogs arrive with the next pipeline step. Paths can be typed for now."
+    "dropPdf": "Drop a PDF here, or click to browse",
+    "dropOutput": "Drop a folder here, or click to browse",
+    "dropPdfOnly": "Drop a PDF file onto this zone.",
+    "dropFolderOnly": "Drop a folder (not a PDF) onto this zone.",
+    "clear": "Clear"
   },
   "deps": {
     "title": "External tools",

@@ -12,11 +12,15 @@
   },
   "select": {
     "pdf": "PDF del libro",
-    "pdfHint": "Escaneado o texto — un libro a la vez",
+    "pdfHint": "Escaneado o texto — un libro a la vez. Clic o arrastrar y soltar.",
     "output": "Carpeta de salida",
     "choosePdf": "Elegir PDF…",
     "chooseOutput": "Elegir carpeta…",
-    "comingSoon": "Los diálogos de archivos llegarán con la pipeline. Por ahora puedes escribir las rutas."
+    "dropPdf": "Suelta un PDF aquí, o haz clic para explorar",
+    "dropOutput": "Suelta una carpeta aquí, o haz clic para explorar",
+    "dropPdfOnly": "Suelta un archivo PDF en esta zona.",
+    "dropFolderOnly": "Suelta una carpeta (no un PDF) en esta zona.",
+    "clear": "Borrar"
   },
   "deps": {
     "title": "Herramientas externas",
